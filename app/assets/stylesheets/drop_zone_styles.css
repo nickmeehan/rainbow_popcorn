@@ -1,3 +1,6 @@
 section.drop_zone {
-	
+	margin: 0 auto;
+	width: 50%;
+	height: 250px;
+	background-color: yellow;
 }
