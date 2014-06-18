@@ -4,11 +4,11 @@ function FlavoursController(view) {
 
 FlavoursController.prototype = {
 	init: function() {
-		$('li').drag(function( ev, dd ){
+		$('li').drag(function( type, options ){
       $( this ).css({
-         top: dd.offsetY,
-         left: dd.offsetX
+         top: options.offsetY,
+         left: options.offsetX
       });
-   })
+    })
 	}
 }
