@@ -4,8 +4,11 @@ function FlavoursController(view) {
 
 FlavoursController.prototype = {
 	init: function() {
-		$('#ketchup').draggable({
-			helper: "clone"
-		})
+		$('li').drag(function( ev, dd ){
+      $( this ).css({
+         top: dd.offsetY,
+         left: dd.offsetX
+      });
+   })
 	}
 }
