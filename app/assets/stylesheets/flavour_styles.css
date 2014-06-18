@@ -1,0 +1,47 @@
+section.flavour_selection {
+	width: 100%;
+	height: 150px;
+	background-color: lightblue;
+}
+
+ul.flavours {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	margin: 25px 20px 0px 20px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+#ketchup {
+	background-color: red;
+}
+
+#butter {
+	background-color: orange;
+}
+
+#truffle_oil {
+	background-color: yellow;
+}
+
+#dill_pickle {
+	background-color: green;
+}
+
+#blue_cheese {
+	background-color: blue;
+}
+
+#salt {
+	background-color: purple;
+}
+
+#pepper {
+	background-color: violet;
+}
