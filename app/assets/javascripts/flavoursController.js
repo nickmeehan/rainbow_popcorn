@@ -9,12 +9,20 @@ FlavoursController.prototype = {
 	},
 	handleDragEvent: function() {
 		var $flavour = this.view.getFlavourSelector();
-		$flavour.drag(this.view.showDragEvent)
+		$flavour.draggable({
+			helper: "clone"
+		})
+		// $flavour.drag(this.view.showDragEvent)
 	},
 	handleDropEvent: function() {
 		var $dropZone = this.view.getFlavourDropZoneSelector();
-    $dropZone.drop(function() {
-    	console.log("DROPPED!!")
-    })
+		$dropZone.droppable({
+      accept: this.view.flavourSelector,
+      drop: this.dropEvent.bind(this)
+    });
+	},
+	dropEvent: function(event, ui) {
+		console.log(event)
+		console.log(ui.draggable.context.id)
 	}
 }
