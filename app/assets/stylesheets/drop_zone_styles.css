@@ -1,6 +1,8 @@
 section.drop_zone {
-	margin: 0 auto;
-	width: 50%;
-	height: 250px;
-	background-color: yellow;
+	margin: 40px auto;
+	width: 70%;
+}
+
+.popcorn {
+	width: 100%;
 }
