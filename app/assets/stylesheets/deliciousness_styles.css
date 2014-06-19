@@ -1,0 +1,25 @@
+section.deliciousness_meter {
+	height: 200px;
+}
+
+.bar_border {
+	height: 20px;
+	width: 80%;
+	border-radius: 5px;
+	border: solid black 2px;
+}
+
+.bar {
+	border-radius: 5px;
+	background-color: green;
+	width: 60%;
+	height: 20px;
+}
+
+.buffering {
+	border-radius: 5px;
+	background: url("http://www.cssdeck.com/uploads/media/items/7/7uo1osj.gif");
+	width: 100%;
+	height: 20px;
+	opacity: 0.50;
+}
