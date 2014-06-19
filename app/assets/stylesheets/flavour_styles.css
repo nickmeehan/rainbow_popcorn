@@ -13,44 +13,37 @@ ul.flavours {
 
 li {
 	margin: 25px 20px 0px 20px;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	display: inline-block;
 	cursor: move;
 	position: absolute;
 }
 
 #ketchup {
-	background-color: red;
 	left: 8%;
 }
 
 #butter {
-	background-color: orange;
 	left: 20%;
 }
 
 #truffle_oil {
-	background-color: yellow;
 	left: 32%;
 }
 
 #dill_pickle {
-	background-color: green;
 	left: 44%;
 }
 
 #blue_cheese {
-	background-color: blue;
 	left: 56%;
 }
 
 #salt {
-	background-color: purple;
 	left: 68%;
 }
 
 #pepper {
-	background-color: violet;
 	left: 80%;
 }
