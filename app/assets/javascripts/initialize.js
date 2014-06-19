@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	new FlavoursController(new FlavoursView(flavoursViewSelectors)).init()
+	var deliciousnessProgressBar = new DeliciousnessProgressBar()
+	new Controller(new FlavoursView(flavoursViewSelectors), new DeliciousnessView(), deliciousnessProgressBar).init()
 })
 
 var flavoursViewSelectors = {
