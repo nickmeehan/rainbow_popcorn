@@ -13,6 +13,6 @@ DeliciousnessView.prototype = {
     var barWidth = arguments[1]
 		$barSelector.hide()
     $barSelector.css({'background-color': this.hexValues[barColour], 'width': barWidth + '%'})
-		$barSelector.show('slide', { direction: 'left' }, 500)
+		$barSelector.show('slide', { direction: 'left' }, 400)
 	}
 }
