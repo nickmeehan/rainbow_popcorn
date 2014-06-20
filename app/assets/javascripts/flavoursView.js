@@ -1,6 +1,6 @@
 function FlavoursView(selectors) {
-	this.flavourSelector = selectors["flavourSelector"]
-	this.dropZoneSelector = selectors["dropZoneSelector"]
+	this.flavourSelector = selectors['flavourSelector']
+	this.dropZoneSelector = selectors['dropZoneSelector']
 }
 
 FlavoursView.prototype = {
