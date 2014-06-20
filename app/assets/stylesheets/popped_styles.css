@@ -1,0 +1,17 @@
+section.popped {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.popping {
+  position: relative;
+  top: -50px;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+}
