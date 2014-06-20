@@ -6,7 +6,7 @@ section.deliciousness_meter {
 	height: 20px;
 	width: 80%;
 	border-radius: 5px;
-	border: solid black 2px;
+	border: solid #ACACAC 2px;
 }
 
 .bar {
