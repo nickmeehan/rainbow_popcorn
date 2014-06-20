@@ -8,6 +8,10 @@ var flavoursViewSelectors = {
 	dropZoneSelector: '.drop_zone'
 }
 
+var deliciousnessViewSelectors = {
+	barSelector: '.bar'
+}
+
 var flavourDeliciousnessValues = {
 	ketchup: 7,
 	butter: 10,
