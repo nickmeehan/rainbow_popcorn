@@ -24,13 +24,12 @@ Controller.prototype = {
     });
 	},
 	dropEvent: function(event, ui) {
-
 		var flavourValue = FlavourMaster.returnFlavourValue(this.flavoursScores, ui.draggable.context.id)
-
-
-		this.deliciousnessView.rerenderBar()
-
-		console.log(event)
-		console.log(ui.draggable.context.id)
+		var barPositionAndStatus = this.progressBar.getPositionAndColour(flavourValue)
+		if (this.progressBar.barStatus > 100) {
+			FullBarEnding.rainbowPop(this)
+		} else {
+			this.deliciousnessView.rerenderBar(barPositionAndStatus)
+		}
 	}
 }
