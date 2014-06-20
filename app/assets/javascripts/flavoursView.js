@@ -9,11 +9,5 @@ FlavoursView.prototype = {
 	},
 	getFlavourDropZoneSelector: function() {
 		return $(this.dropZoneSelector)
-	},
-	showDragEvent: function(event, dragObject) {
-		$(this).css({
-		  top: dragObject.offsetY,
-		  left: dragObject.offsetX
-		});
 	}
 }
