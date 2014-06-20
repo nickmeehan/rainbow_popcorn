@@ -33,11 +33,11 @@ var colourValues = {
 }
 
 var hexValues = {
-	violet: '#123456',
-	purple: '#123456',
-	blue: '#123456',
-	green: '#123456',
-	yellow: '#123456',
-	orange: '#123456',
-	red: '#123456'
+	violet: '#EA4DFF',
+	purple: '#BB00FF',
+	blue: '#1100FF',
+	green: '#00BD06',
+	yellow: '#FFFF00',
+	orange: '#FFA200',
+	red: '#FF0000'
 }
