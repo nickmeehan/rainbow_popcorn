@@ -1,8 +1,46 @@
 section.deliciousness_meter {
-	height: 200px;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	font-size: 3em;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.tooltip {
+  display: inline;
+  position: relative;
+}
+
+.tooltip:hover:after{
+    background: #E3E3E3;
+    /*background: rgba(0, 0, 0, 0.3);*/
+    border-radius: 5px;
+    color: #000000;
+    content: attr(title);
+    top: -20px;
+    right: -350px;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 700px;
+}
+
+.rainbow {
+/*  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );*/
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #ff2), color-stop(0.3, #ff2), color-stop(0.45, #2f2), color-stop(0.6, #2ff),color-stop(0.75, #22f), color-stop(0.9, #f2f), color-stop(1, #f2f) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #ff2), color-stop(0.3, #ff2), color-stop(0.45, #2f2), color-stop(0.6, #2ff),color-stop(0.75, #22f), color-stop(0.9, #f2f), color-stop(1, #f2f) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .bar_border {
+	margin: 0 auto;
 	height: 20px;
 	width: 80%;
 	border-radius: 5px;
