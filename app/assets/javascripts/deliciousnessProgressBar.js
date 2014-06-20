@@ -1,3 +1,8 @@
-function DeliciousnessProgressBar() {
-	this.amount = 0;
+function DeliciousnessProgressBar(colourValues) {
+	this.barStatus = 0;
+	this.colourValues = colourValues;
+}
+
+DeliciousnessProgressBar.prototype = {
+	
 }
