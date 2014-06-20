@@ -1,5 +1,5 @@
-function DeliciousnessView() {
-
+function DeliciousnessView(hexValues) {
+  this.hexValues = hexValues;
 }
 
 DeliciousnessView.prototype = {
