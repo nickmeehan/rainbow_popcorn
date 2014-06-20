@@ -25,7 +25,7 @@ Controller.prototype = {
 	},
 	dropEvent: function(event, ui) {
 
-		var flavourValue = FlavourMaster.returnFlavour(this.flavoursScores, ui.draggable.context.id)
+		var flavourValue = FlavourMaster.returnFlavourValue(this.flavoursScores, ui.draggable.context.id)
 
 
 		this.deliciousnessView.rerenderBar()

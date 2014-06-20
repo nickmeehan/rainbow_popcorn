@@ -1,5 +1,5 @@
 var FlavourMaster = {
-	returnFlavour: function(flavourScores, selectedFlavour) {
+	returnFlavourValue: function(flavourScores, selectedFlavour) {
 		return flavourScores[selectedFlavour]
 	}
 }
