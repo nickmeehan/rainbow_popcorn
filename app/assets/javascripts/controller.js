@@ -1,8 +1,8 @@
-function Controller(flavoursView, deliciousnessView, deliciousnessProgressBar) {
+function Controller(flavoursView, deliciousnessView, deliciousnessProgressBar, flavourDeliciousnessValues) {
 	this.flavoursView = flavoursView;
 	this.deliciousnessView = deliciousnessView;
 	this.progressBar = deliciousnessProgressBar;
-	this.flavoursCollection = []
+	this.flavoursScores = flavourDeliciousnessValues;
 }
 
 Controller.prototype = {
