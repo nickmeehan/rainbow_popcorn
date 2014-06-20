@@ -4,7 +4,7 @@ section.deliciousness_meter {
 	text-align: center;
 }
 
-p {
+section.deliciousness_meter p {
 	font-size: 3em;
 	font-weight: bold;
 	margin: 10px 0px;
@@ -17,11 +17,11 @@ p {
 
 .tooltip:hover:after{
     background: #E3E3E3;
-    /*background: rgba(0, 0, 0, 0.3);*/
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
-    color: #000000;
+    color: #E3E3E3;
     content: attr(title);
-    top: -20px;
+    top: -15px;
     right: -350px;
     padding: 5px 15px;
     position: absolute;
@@ -30,8 +30,6 @@ p {
 }
 
 .rainbow {
-/*  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );*/
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #ff2), color-stop(0.3, #ff2), color-stop(0.45, #2f2), color-stop(0.6, #2ff),color-stop(0.75, #22f), color-stop(0.9, #f2f), color-stop(1, #f2f) );
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #ff2), color-stop(0.3, #ff2), color-stop(0.45, #2f2), color-stop(0.6, #2ff),color-stop(0.75, #22f), color-stop(0.9, #f2f), color-stop(1, #f2f) );
   color:transparent;
