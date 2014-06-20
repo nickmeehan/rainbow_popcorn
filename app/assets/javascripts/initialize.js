@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var deliciousnessProgressBar = new DeliciousnessProgressBar(colourValues)
-	new Controller(new FlavoursView(flavoursViewSelectors), new DeliciousnessView(hexValues), deliciousnessProgressBar, flavourDeliciousnessValues).init()
+	new Controller(new FlavoursView(flavoursViewSelectors), new DeliciousnessView(deliciousnessViewSelectors, hexValues), deliciousnessProgressBar, flavourDeliciousnessValues).init()
 })
 
 var flavoursViewSelectors = {
